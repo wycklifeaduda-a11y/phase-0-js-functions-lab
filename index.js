@@ -2,8 +2,7 @@ function calculateTax(amount) {
     const taxRate = 0.1; // 10% tax rate
     return amount * taxRate;
 }
-console.log(calculateTax(150)); // Output: 10
-
+console.log(calculateTax(100)); // Output: 10
 
 function convertToUpperCase(text) {
     return text.toUpperCase();
@@ -31,5 +30,5 @@ function calculateDiscountedPrice(originalPrice, discountPercentage){
 console.log(calculateDiscountedPrice(100, 20)); // Output: 80
 
 
-// This is required for the test to function properly  
+ //This is required for the test to function properly  
 //module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
